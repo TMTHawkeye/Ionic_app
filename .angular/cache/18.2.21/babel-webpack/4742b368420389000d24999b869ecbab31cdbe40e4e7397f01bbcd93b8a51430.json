@@ -1,0 +1,1 @@
+{"ast":null,"code":"/*!\n * (C) Ionic http://ionicframework.com - MIT License\n */\nimport { T as o, d as s } from \"./p-Cfx4M1Bn.js\";\nconst p = o,\n  r = s;\nexport { p as IonTitle, r as defineCustomElement };","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

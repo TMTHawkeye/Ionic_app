@@ -1,0 +1,1 @@
+{"ast":null,"code":"/*!\n * (C) Ionic http://ionicframework.com - MIT License\n */\nimport { B as r, d as o } from \"./p-BHrrc-3d.js\";\nconst s = r,\n  p = o;\nexport { s as IonButton, p as defineCustomElement };","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"/*!\n * (C) Ionic http://ionicframework.com - MIT License\n */\nimport { S as o, d as s } from \"./p-DS4Hk6R2.js\";\nconst p = o,\n  r = s;\nexport { p as IonSelectModal, r as defineCustomElement };","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

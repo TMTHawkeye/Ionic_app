@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { registerPlugin } from '@capacitor/core';\nconst SdkLauncher = registerPlugin('SdkLauncher', {\n  web: () => import('./web').then(m => new m.SdkLauncherWeb())\n});\nexport * from './definitions';\nexport { SdkLauncher };","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

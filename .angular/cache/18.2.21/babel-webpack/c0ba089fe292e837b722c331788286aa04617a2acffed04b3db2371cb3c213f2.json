@@ -1,0 +1,1 @@
+{"ast":null,"code":"/*!\n * (C) Ionic http://ionicframework.com - MIT License\n */\nimport { L as o, d as s } from \"./p-B9jFTlwE.js\";\nconst p = o,\n  r = s;\nexport { p as IonLabel, r as defineCustomElement };","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

@@ -2,7 +2,9 @@ export interface LaunchOptions {
   /** TruID application/API token (was `appToken` in the RN bridge) */
   apiKey: string;
   /** TruID API endpoint, e.g. https://api.truid.example.com */
-  endPoint: string;
+  endPoint?: string;
+  /** Additional provider-specific parameters */
+  extra?: Record<string, unknown>;
 }
 
 export interface LaunchSnapOptions extends LaunchOptions {
@@ -11,6 +13,8 @@ export interface LaunchSnapOptions extends LaunchOptions {
 }
 
 export interface LaunchResult {
+  success?: boolean;
+  message?: string;
   sessionId?: string;
   verificationStatus?: string;
   error?: string;

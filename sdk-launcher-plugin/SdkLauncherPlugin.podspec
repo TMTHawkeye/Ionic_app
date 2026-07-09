@@ -14,6 +14,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.dependency 'Capacitor'
 
-  # TODO: add a dependency on the real SDK's CocoaPod, e.g.:
+  # TODO: add the real SDK dependency once its CocoaPod name is known.
+  # Example:
   # s.dependency 'YourSDK', '~> 1.0'
+  s.dependency 'Alamofire', '~> 5.9'
+  s.dependency 'TruID'
 end
