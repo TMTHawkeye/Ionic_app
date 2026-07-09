@@ -1,0 +1,1 @@
+{"ast":null,"code":"/*!\n * (C) Ionic http://ionicframework.com - MIT License\n */\nimport { w as o } from \"./p-ZjP4CjeZ.js\";\nconst r = () => {\n  if (void 0 !== o) return o.Capacitor;\n};\nexport { r as g };","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

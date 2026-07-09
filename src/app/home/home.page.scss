@@ -1,0 +1,30 @@
+.center-wrap {
+  max-width: 420px;
+  margin: 10vh auto 0;
+  text-align: center;
+}
+
+.hero-icon {
+  font-size: 64px;
+  color: var(--ion-color-primary);
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+p {
+  color: var(--ion-color-medium);
+  margin-bottom: 24px;
+}
+
+.status {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.95rem;
+}

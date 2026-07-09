@@ -1,0 +1,1 @@
+{"ast":null,"code":"/*!\n * (C) Ionic http://ionicframework.com - MIT License\n */\nimport { R as o, d as p } from \"./p-lE_JGpHD.js\";\nconst s = o,\n  r = p;\nexport { s as IonRadioGroup, r as defineCustomElement };","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

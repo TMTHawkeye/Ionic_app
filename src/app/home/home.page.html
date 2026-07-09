@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>SDK Launcher</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="center-wrap">
+    <ion-icon name="rocket-outline" class="hero-icon"></ion-icon>
+
+    <h1>Launch the SDK</h1>
+    <p>Tap the button below to initialize and launch the native SDK on this device.</p>
+
+    <ion-button
+      expand="block"
+      size="large"
+      [disabled]="status === 'launching'"
+      (click)="launchSdk()"
+    >
+      <ion-spinner *ngIf="status === 'launching'" name="crescent" slot="start"></ion-spinner>
+      <ion-icon *ngIf="status !== 'launching'" name="rocket-outline" slot="start"></ion-icon>
+      {{ status === 'launching' ? 'Launching…' : 'Launch SDK' }}
+    </ion-button>
+
+    <div class="status" *ngIf="status === 'success'">
+      <ion-icon name="checkmark-circle-outline" color="success"></ion-icon>
+      <ion-text color="success">{{ statusMessage }}</ion-text>
+    </div>
+
+    <div class="status" *ngIf="status === 'error'">
+      <ion-icon name="alert-circle-outline" color="danger"></ion-icon>
+      <ion-text color="danger">{{ statusMessage }}</ion-text>
+    </div>
+  </div>
+</ion-content>
